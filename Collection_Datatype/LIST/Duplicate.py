@@ -37,8 +37,6 @@
 
 
 
-
-
 # THIS IS CAHTGPT CODE
 
 # duplicate=[]
@@ -52,11 +50,71 @@
 
 # TASK
 
-list2=[2,3,4,7,8,1]
+# list2=[2,3,4,7,8,1]
 #find the any two elements which sum is 10 7+3=10
 #2+8=10
 
-for i in list2:
-    for j in list2:
-        if i + j == 10:
-            print(i ,j , "=", "10")
+# for i in list2:
+#     for j in list2:
+#         if i + j == 10:
+#             print(i ,j , "=", "10")
+
+
+# TASK
+list3=[2,3,4,7,8,1]
+# find the samllest and largest element
+# smallest = 1
+# largest = 8
+#find the any two elements which sum is 10 7+3=10
+#2+8=10
+
+# num = [5,1,3,6,7,8,3,5,9]
+# small = 100 
+# # i=1
+# while i<len(num):
+#         if num[i]<small:
+#                 small=num[i]
+#         i+=1
+# print("smallest element is ", small)   
+
+
+# for loop conversion
+# num = [5,1,3,6,7,8,3,5,9]
+# small = 100
+
+# for i in num:
+#     if i < small:
+#         small = i
+# print("small element:", small)
+
+
+
+
+
+                
+# greatest element
+
+# greatest = 0
+# i = 1
+# while i<len(num):
+#         if num[i]>greatest:
+#                 greatest=num[i]
+#         i+=1
+# print("greatest element is",greatest)        
+
+# greatest element in for loop
+
+
+
+num = [5,1,3,6,7,8,3,5,9]
+great = 1
+
+for i in num:
+    if i > great:
+        great = i
+print("great element:", great)
+
+
+
+# task 
+# 2 nd smallest find largest 2nd
