@@ -13,11 +13,11 @@ print(largest)
 # Find the second  Largest Element by sir
 
 
-# secondlargest=[0]
-# for i in numbers:
-#     if  secondlargest and i!=largest:
-#         secondlargest = i
-# print("second largest number: ",secondlargest)
+secondlargest=[0]
+for i in numbers:
+    if  secondlargest and i!=largest:
+        secondlargest = i
+print("second largest number: ",secondlargest)
 
 
 
@@ -52,4 +52,9 @@ print(largest)
 #     if i< smallest:  # 0>25= false  25>0= true
 #         smallest = i
 # print(smallest)
+
+
+
+
+
 
