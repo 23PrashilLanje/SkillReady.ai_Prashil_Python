@@ -61,7 +61,7 @@
 
 
 # TASK
-list3=[2,3,4,7,8,1]
+# list3=[2,3,4,7,8,1]
 # find the samllest and largest element
 # smallest = 1
 # largest = 8
@@ -106,15 +106,29 @@ list3=[2,3,4,7,8,1]
 
 
 
-num = [5,1,3,6,7,8,3,5,9]
-great = 1
+# num = [5,1,3,6,7,8,3,5,9]
+# great = 1
 
-for i in num:
-    if i > great:
-        great = i
-print("great element:", great)
+# for i in num:
+#     if i > great:
+#         great = i
+# print("great element:", great)
 
 
 
-# task 
-# 2 nd smallest find largest 2nd
+# task 6
+#  find largest 2nd
+
+# numbers = [10, 50, 30, 80, 40]
+
+# largest = numbers[0]
+# second_largest = numbers[0]
+
+# for i in numbers:
+#     if i > largest:
+#         second_largest = largest
+#         largest = i
+#     elif i > second_largest and i != largest:
+#         second_largest = i
+
+# print("Second largest element:", second_largest)

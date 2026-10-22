@@ -41,8 +41,6 @@ print("second largest number: ",secondlargest)
 
 
 
-
-
 # Find the smallest element
 
 # numbers = [25, 10, 75, 40, 90, 15]
