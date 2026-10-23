@@ -54,12 +54,30 @@
 
 # que 5 search a number x in this tuple using loop
 
+# num1= (1,4,9,16,25,36,49,64,81,100)  # this is tuple
+
+# i = 0
+# while i< len(num1):
+#     print(num1[i])
+#     i += 1
+
+# Another example 
 num1= (1,4,9,16,25,36,49,64,81,100)  # this is tuple
 
+x = 36
 i = 0
-while i< len(num1):
-    print(num1[i])
+
+while i < len(num1):
+    if(num1[i] == x):
+        print("found at index" , i)
     i += 1
+
+
+
+
+
+
+
 
 # print num from 1 to 5 while loop 
 
