@@ -10,9 +10,20 @@
 
 # que wap to find the sum of first n numbers. apna college
 
-n = 7
+# n = 5
+# fact = 1
+# i = 1
+# while i <= n:
+#     fact *= i
+#     i += 1
+# print("total factorial:",fact) # 1*2*3*4*5 = 120
+
+
+a  = 5
 sum = 0
 i = 1
-while i <= n:
+
+while i <= a:
     sum += i
-print("total sum:",sum)
+    i += 1
+print("total sum:",sum) # 1+2+3+4+5 = 15
