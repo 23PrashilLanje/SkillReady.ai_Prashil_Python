@@ -46,14 +46,28 @@
 #     count -= 3
 # print("End: ",count)
 
-# task gpt#################
+# task gpt   #################
+
+# count = 1
+# total = 0
+
+# while count <= 4:
+#     total += count
+#     count += 1
+
+# print("count :" , count)
+# print("total :" , total)
+
+
+# task gpt   #################
 
 count = 1
 total = 0
 
-while count <= 4:
-    total += count
-    count += 1
+while count <= 5:
+    if count % 2 == 0:
+        total += count
+        count += 1
 
-print("count :" , count)
-print("total :" , total)
+print("count :", count) 
+print("total :", total) 
