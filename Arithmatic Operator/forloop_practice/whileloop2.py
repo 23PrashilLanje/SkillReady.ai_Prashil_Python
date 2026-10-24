@@ -19,11 +19,41 @@
 # print("total factorial:",fact) # 1*2*3*4*5 = 120
 
 
-a  = 5
-sum = 0
-i = 1
+# a  = 5
+# sum = 0
+# i = 1
 
-while i <= a:
-    sum += i
-    i += 1
-print("total sum:",sum) # 1+2+3+4+5 = 15
+# while i <= a:
+#     sum += i
+#     i += 1
+# print("total sum:",sum) # 1+2+3+4+5 = 15
+
+
+
+# task gpt################
+
+# count = 1
+# while count < 5:
+#     print(count)
+#     count += 2
+# print("final",count)
+
+# task gpt#################
+
+# count = 10
+# while count >= 2:
+#     print(count)
+#     count -= 3
+# print("End: ",count)
+
+# task gpt#################
+
+count = 1
+total = 0
+
+while count <= 4:
+    total += count
+    count += 1
+
+print("count :" , count)
+print("total :" , total)

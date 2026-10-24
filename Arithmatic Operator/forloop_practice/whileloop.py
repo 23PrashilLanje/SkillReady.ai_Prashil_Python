@@ -2,14 +2,14 @@
 
 # count = 2
 # while count<= 5:
-#     print("i lv u")
+#     print("name")
 #     count+=1
-# print(count) # >> 6 
+# print("final:",count) # >> 6 
 
-# i = 1
-# while i<= 5:
-#     print("alka",i)
-#     i += 1
+i = 1
+while i<= 5:
+    print("alka",i)
+    i += 1
 
 # i = 5
 # while i>=0:
@@ -62,15 +62,15 @@
 #     i += 1
 
 # Another example 
-num1= (1,4,9,16,25,36,49,64,81,100)  # this is tuple
+# num1= (1,4,9,16,25,36,49,64,81,100)  # this is tuple
 
-x = 36
-i = 0
+# x = 36
+# i = 0
 
-while i < len(num1):
-    if(num1[i] == x):
-        print("found at index" , i)
-    i += 1
+# while i < len(num1):
+#     if(num1[i] == x):
+#         print("found at index" , i)
+#     i += 1
 
 
 

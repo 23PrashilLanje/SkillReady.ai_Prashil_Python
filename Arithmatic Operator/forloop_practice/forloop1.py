@@ -44,6 +44,11 @@
 # for i in range(100,0,-1): #> starrt , stop , decrement
 #     print(i)
 
+for i in range(1,101):
+    print(i)
+
+
+
 
 
 # # table of  n user input 
@@ -52,21 +57,22 @@
 # for i in range(1,11):
 #     print(n * i)
 
+
 # que wap to find the sum of first n numbers.
 
-n = 5
-sum = 0
+# n = 5
+# sum = 0
 
-for i in range(1,n+1):
-    sum += i
-print("total sum is: ",sum) # 1+2+3+4+5 = 15 output
+# for i in range(1,n+1):
+#     sum += i
+# print("total sum is: ",sum) # 1+2+3+4+5 = 15 output
 
 
 # WAP to find the factorial of first n number (using for loop)
 
-n = 5
-fact = 1
+# n = 5
+# fact = 1
 
-for i in range(1,n+1):
-    fact *= i
-print("factorial:", fact)
+# for i in range(1,n+1):
+#     fact *= i
+# print("factorial:", fact)
