@@ -166,5 +166,24 @@ lst.append(4)
 
 new_tuple = tuple(lst)
 
-print(lst)
-print(new_tuple)
+print(lst)          # [1, 2, 3, 4]
+print(new_tuple)    # (1, 2, 3, 4)
+
+
+### 17th  Sorting Tuples   ###
+
+
+scores = (("Asha", 85), ("Rohan", 92), ("Neha", 78))
+ 
+by_score = tuple(sorted(scores, key=lambda item: item[1]))
+ 
+print(by_score)
+
+
+### 18th Membership, any(), and all()   ###
+
+values = (0,2,4,6)
+print(4 in values)    # True
+print(5 in values)    # False
+print(any (values))   # True
+print(all (values))  # False
