@@ -9,7 +9,7 @@
 
 ## MANUAL LOGIC  HARD CODE OF THIS  ##
 
-data = (10,20,10,30,10,10)
+data = (10,20,10,30,10,40)
 
 count = 0
 for i in data:
@@ -17,3 +17,6 @@ for i in data:
         print("manual logic: ",i)
         count += 1
 print(count, "times") # 4
+
+
+

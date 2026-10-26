@@ -61,13 +61,14 @@
 
 # task gpt   #################
 
+
 count = 1
 total = 0
 
 while count <= 5:
-    if count % 2 == 0:
+    if count % 2 != 0:
         total += count
-        count += 1
+    count += 1
 
-print("count :", count) 
-print("total :", total) 
+print("Count:", count)
+print("Total:", total)
