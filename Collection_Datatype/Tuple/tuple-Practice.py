@@ -11,3 +11,11 @@
 # for i in numbers:
 #     sum = sum+i
 # print("total of all items",sum)
+
+
+number = (10,20,30,40,)
+total = 0 
+for i in number:
+    total = total + i
+print(total)               # > 100
+
