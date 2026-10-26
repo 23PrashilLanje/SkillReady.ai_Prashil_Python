@@ -10,10 +10,10 @@
 # # EMPTY TUPLE
 # c = ()
 
-# # ONETIME TUPLE
+# # # ONETIME TUPLE
 # d = (5,)
 
-# # FROM A LIST
+# # # FROM A LIST
 # e = tuple([1,2,3])
 
 # print(a)
@@ -23,7 +23,7 @@
 # print(e)
 
 
-## 4th slide ACCESSING TUPLE ITEMS  ###
+# 4th slide ACCESSING TUPLE ITEMS  ###
 
 # colors = ("red" , "green" , "blue" , "black")
 # print(colors[0])   # red
@@ -45,14 +45,14 @@
 
 ## 6th TUPLE IMMUTABILITY   ###
 
-# numbers = (10, 20, 30)
+numbers = (10, 20, 30)
  
-# # This would raise TypeError:
-# # numbers[1] = 99
+# This would raise TypeError:
+# numbers[1] = 99
  
-# # Create a new tuple instead
-# numbers = numbers[:1] + (99,) + numbers[2:]
-# print(numbers)
+# Create a new tuple instead
+numbers = numbers[:1] + (99,) + numbers[2:]
+print(numbers)
 
 
 
@@ -160,30 +160,30 @@
 
 ## 16th  Converting Between Lists and Tuples  ###
 
-t = (1,2,3)    # tuple type
-lst = list(t)  # list type
-lst.append(4)  
+# t = (1,2,3)    # tuple type
+# lst = list(t)  # list type
+# lst.append(4)  
 
-new_tuple = tuple(lst)
+# new_tuple = tuple(lst)
 
-print(lst)          # [1, 2, 3, 4]
-print(new_tuple)    # (1, 2, 3, 4)
+# print(lst)          # [1, 2, 3, 4]
+# print(new_tuple)    # (1, 2, 3, 4)
 
 
 ### 17th  Sorting Tuples   ###
 
 
-scores = (("Asha", 85), ("Rohan", 92), ("Neha", 78))
+# scores = (("Asha", 85), ("Rohan", 92), ("Neha", 78))
  
-by_score = tuple(sorted(scores, key=lambda item: item[1]))
+# by_score = tuple(sorted(scores, key=lambda item: item[1]))
  
-print(by_score)
+# print(by_score)
 
 
 ### 18th Membership, any(), and all()   ###
 
-values = (0,2,4,6)
-print(4 in values)    # True
-print(5 in values)    # False
-print(any (values))   # True
-print(all (values))  # False
+# values = (0,2,4,6)
+# print(4 in values)    # True
+# print(5 in values)    # False
+# print(any (values))   # True
+# print(all (values))  # False
