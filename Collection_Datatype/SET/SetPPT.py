@@ -41,5 +41,9 @@
 # print(s)          # {40, 10, 20, 30}
 
 
- ## 8th slide ##
+ ## 8th slide  No Indexing OR Slicing ##
 
+s = {30,10,20}
+for i in s:
+    print(i)
+# print(sorted(s))
