@@ -51,7 +51,27 @@
 
  ## 9th slide Membership and Length ##
 
-skills = {'python' , 'SQL' ,'java'}
-print('SQL' in skills)        # True
-print('c++' not in skills)    # True bcoz of not
-print(len(skills))             # 3
+# skills = {'python' , 'SQL' ,'java'}
+# print('SQL' in skills)        # True
+# print('c++' not in skills)    # True bcoz of not
+# print(len(skills))             # 3
+
+
+ ## 10th slide Adding One Element: add() ##
+
+# skills ={'python' ,'SQL'}
+# skills.add('power BI')
+# skills.add('python')
+# print(len(skills))      # 3
+
+ ## 11th slide Adding Multiple Element: update() ##
+
+skills ={'python' ,'SQL'}
+skills.update(['java','SQL'])
+skills.update(('git' , 'linux'))
+print(skills)
+print('c' in skills)  # False
+print('java' in skills) # True
+print(len(skills))
+
+# o/p >> {'python', 'SQL', 'git', 'linux', 'java'} 
