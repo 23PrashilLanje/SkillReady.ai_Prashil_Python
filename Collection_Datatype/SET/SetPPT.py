@@ -15,8 +15,31 @@
 # print(type(a))   # empty set declared dictionary type
 
 
-list = [10, 20, 10, 30, 20, 40]
-myset = set(list)
-print(myset)
-print(type(myset))
-print(len(list))
+# list = [10, 20, 10, 30, 20, 40]
+# myset = set(list)
+# print(myset)
+# print(type(myset))
+# print(len(list))
+
+
+ ## 6th slide ##
+
+# empty = set()
+# from_list = set([1,2,2,3])
+# from_text = set('hello')
+# print(empty)            # set()
+# print(from_list)        # {1, 2, 3}
+# print(from_text)        # {'o', 'h', 'e', 'l'}
+
+ ## 7th slide ##
+
+# s = {10,20,20,30}
+# print(len(s))       # 3
+# s.add(40)
+# print(40 in s)      # True
+# # print(s[0])     # type error
+# print(s)          # {40, 10, 20, 30}
+
+
+ ## 8th slide ##
+
