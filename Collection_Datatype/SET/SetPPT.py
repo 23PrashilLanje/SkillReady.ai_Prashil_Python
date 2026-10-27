@@ -43,7 +43,15 @@
 
  ## 8th slide  No Indexing OR Slicing ##
 
-s = {30,10,20}
-for i in s:
-    print(i)
-# print(sorted(s))
+# s = {30,10,20}
+# for i in s:
+#     print(i)
+# print(sorted(s))  # [10, 20, 30]
+
+
+ ## 9th slide Membership and Length ##
+
+skills = {'python' , 'SQL' ,'java'}
+print('SQL' in skills)        # True
+print('c++' not in skills)    # True bcoz of not
+print(len(skills))             # 3
