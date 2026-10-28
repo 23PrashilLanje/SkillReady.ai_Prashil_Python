@@ -66,12 +66,21 @@
 
  ## 11th slide Adding Multiple Element: update() ##
 
-skills ={'python' ,'SQL'}
-skills.update(['java','SQL'])
-skills.update(('git' , 'linux'))
-print(skills)
-print('c' in skills)  # False
-print('java' in skills) # True
-print(len(skills))
+# skills ={'python' ,'SQL'}
+# skills.update(['java','SQL'])
+# skills.update(('git' , 'linux'))
+# print(skills)
+# print('c' in skills)  # False
+# print('java' in skills) # True
+# print(len(skills))
 
 # o/p >> {'python', 'SQL', 'git', 'linux', 'java'} 
+
+
+ ## 12th slide remove() vs discard() ##
+
+item = {10,20,30}
+item.remove(20)
+item.discard(99)  # if avlbl delete if not skip it
+print(item)
+
