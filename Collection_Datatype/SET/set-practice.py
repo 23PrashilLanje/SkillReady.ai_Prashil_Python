@@ -25,8 +25,12 @@
 # output >> kuch bhi not fix {'apple', 'banana'}
 
 
-numbers = {10, 20, 30}
+# numbers = {10, 20, 30}
+# numbers.clear()
+# print(numbers)
 
-numbers.clear()
+# Que > How can you check how many items are in a set?
 
-print(numbers)
+numbers = {10, 20, 30, 40, 50}
+print(len(numbers))  # 5
+
