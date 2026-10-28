@@ -65,12 +65,20 @@
 
 ### difference() in set ###
 
-a = {1,2,3,4}
-b = {3,4,5,6}
+# a = {1,2,3,4}
+# b = {3,4,5,6}
+# print(a.difference(b))
+# # output > {1,2}
+
+# # reverse the difference
+# print(b.difference(a))
+# # output > {5,6}
+
+# PRACTICE QUESTION #
+
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+print(a.union(b))
+print(a.intersection(b))
 print(a.difference(b))
-# output > {1,2}
-
-# reverse the difference
-print(b.difference(a))
-# output > {5,6}
-
