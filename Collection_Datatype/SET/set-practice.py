@@ -76,9 +76,18 @@
 
 # PRACTICE QUESTION #
 
-a = {1, 2, 3, 4}
-b = {3, 4, 5, 6}
+# a = {1, 2, 3, 4}
+# b = {3, 4, 5, 6}
 
-print(a.union(b))
-print(a.intersection(b))
-print(a.difference(b))
+# print(a.union(b))           # {1, 2, 3, 4, 5, 6} 
+# print(a.intersection(b))    # {3, 4}
+# print(a.difference(b))      # {1, 2}
+
+
+numbers = {2, 4, 6, 8}
+numbers.add(10)
+numbers.discard(4)
+print(len(numbers))
+print(6 in numbers)
+print(numbers)
+
