@@ -46,18 +46,26 @@
 
 # a = {1,2,3}
 # b = {3,4,5}
-# print(a.union(b))
-# {1, 2, 3, 4, 5} not allow duplicate
+# c = {5,6,7}
+# print(a.union(b)) # {1, 2, 3, 4, 5}
+# print(a.union(b,c))
+# # {1, 2, 3, 4, 5, 6, 7} not allow duplicate
 
 ### intersection() in set ###
 
-a = {1,2,3}
-b = {3,4,5}
-print(a.intersection(b))
-#  output {3}
+# a = {1,2,3}
+# b = {3,4,5}
+# print(a.intersection(b))
+# #  output {3}
 
-a = {1, 2, 3, 4}
-b = {3, 4, 5, 6}
-print(a.intersection(b))
-#  output {3,4}
+# a = {1, 2, 3, 4}
+# b = {3, 4, 5, 6}
+# print(a.intersection(b))
+# #  output {3,4}
 
+### difference() in set ###
+
+a = {1,2,3,4}
+b = {3,4,5,6}
+print(a.difference(b))
+# output > {1,2}
