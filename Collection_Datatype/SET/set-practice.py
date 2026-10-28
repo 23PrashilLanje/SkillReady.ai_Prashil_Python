@@ -84,10 +84,31 @@
 # print(a.difference(b))      # {1, 2}
 
 
-numbers = {2, 4, 6, 8}
-numbers.add(10)
-numbers.discard(4)
+# numbers = {2, 4, 6, 8}
+# numbers.add(10)
+# numbers.discard(4)
+# print(len(numbers))
+# print(6 in numbers)
+# print(numbers)
+
+
+# nums = {1, 2, 3, 4, 5}
+# nums.add(6)
+# nums.remove(2)
+# print(nums)
+# # {1, 3, 4, 5, 6}
+
+# a = {10, 20, 30, 40, 50}
+# b = {30, 40, 50, 60, 70}
+# print(a.intersection(b))
+# # {40, 50, 30}
+
+
+numbers = {2, 4, 6, 8, 10}
+numbers.discard(6)
+numbers.add(12)
 print(len(numbers))
 print(6 in numbers)
-print(numbers)
+# 5
+# False
 
