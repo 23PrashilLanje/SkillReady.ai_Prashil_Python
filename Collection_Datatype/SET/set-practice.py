@@ -44,6 +44,20 @@
 
 ### union() in set ###
 
+# a = {1,2,3}
+# b = {3,4,5}
+# print(a.union(b))
+# {1, 2, 3, 4, 5} not allow duplicate
+
+### intersection() in set ###
+
 a = {1,2,3}
 b = {3,4,5}
-print(a.union(b))
+print(a.intersection(b))
+#  output {3}
+
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+print(a.intersection(b))
+#  output {3,4}
+
