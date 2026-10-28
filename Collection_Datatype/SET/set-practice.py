@@ -31,13 +31,19 @@
 
 # Que > How can you check how many items are in a set?
 
-numbers = {10, 20, 30, 40, 50}
-print(len(numbers))  # 5
+# numbers = {10, 20, 30, 40, 50}
+# print(len(numbers))  # 5
 
-fruits = {"apple", "mango", "apple", "banana"}
-print(len(fruits)) # 3
+# fruits = {"apple", "mango", "apple", "banana"}
+# print(len(fruits)) # 3
 
 
-numbers = {10, 20, 30, 40}
-print(20 in numbers)
-print(50 in numbers)
+# numbers = {10, 20, 30, 40}
+# print(20 in numbers)
+# print(50 in numbers)
+
+### union() in set ###
+
+a = {1,2,3}
+b = {3,4,5}
+print(a.union(b))
