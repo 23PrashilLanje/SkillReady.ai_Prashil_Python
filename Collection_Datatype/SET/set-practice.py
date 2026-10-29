@@ -104,11 +104,14 @@
 # # {40, 50, 30}
 
 
-numbers = {2, 4, 6, 8, 10}
-numbers.discard(6)
-numbers.add(12)
-print(len(numbers))
-print(6 in numbers)
-# 5
-# False
+# numbers = {2, 4, 6, 8, 10}
+# numbers.discard(6)
+# numbers.add(12)
+# print(len(numbers))
+# print(6 in numbers)
+# # 5
+# # False
 
+numbers = {10, 20, 30}
+numbers.update([40,50,60])
+print(numbers)
