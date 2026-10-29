@@ -142,7 +142,14 @@
 
 ## issubset()  ##
 
-a = {1,2}
-b = {1,2,3,4}
-print(a.issubset(b))  # True
-print(b.issubset(a))  # False
+# a = {1,2}
+# b = {1,2,3,4}
+# print(a.issubset(b))  # True
+# print(b.issubset(a))  # False
+
+## issuperset()  ##
+
+a = {1,2,3,4}
+b = {2,3}
+print(a.issuperset(b))  # True
+print(b.issuperset(a))  # False
