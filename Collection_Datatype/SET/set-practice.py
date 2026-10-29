@@ -149,7 +149,14 @@
 
 ## issuperset()  ##
 
-a = {1,2,3,4}
-b = {2,3}
-print(a.issuperset(b))  # True
-print(b.issuperset(a))  # False
+# a = {1,2,3,4}
+# b = {2,3}
+# print(a.issuperset(b))  # True
+# print(b.issuperset(a))  # False
+
+## isdisjoint()  ##
+
+a = {1,2,3}
+b = {4,5,6}
+print(a.isdisjoint(b))  # True , no element in common
+
