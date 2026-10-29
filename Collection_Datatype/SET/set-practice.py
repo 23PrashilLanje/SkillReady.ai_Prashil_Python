@@ -120,6 +120,16 @@
 # numbers.update([3, 4, 5])
 # print(len(numbers))
 
-original = {10,20,30}
-new_set = original.copy()
-print(new_set)
+# original = {10,20,30}
+# new_set = original.copy()
+# print(new_set)
+
+# a = {1,2,3}
+# b = a.copy()
+
+# b.add(4)
+# print(a)
+# print(b)
+
+## symmetric_difference()  ##
+
