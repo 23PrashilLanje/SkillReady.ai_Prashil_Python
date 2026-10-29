@@ -79,8 +79,14 @@
 
  ## 12th slide remove() vs discard() ##
 
-item = {10,20,30}
-item.remove(20)
-item.discard(99)  # if avlbl delete if not skip it
-print(item)
+# item = {10,20,30}
+# item.remove(20)
+# item.discard(99)  # if avlbl delete if not skip it
+# print(item)
 
+
+ ## 12th slide pop() vs clear() ##
+
+# s ={10,20,30}
+# removed = s.pop()
+# print(removed)
