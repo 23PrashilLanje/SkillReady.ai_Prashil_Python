@@ -133,10 +133,16 @@
 
 ## symmetric_difference()  ##
 
-a = {1,2,3}
-b = {3,4,5}
-print(a.union(b))
-print(a.intersection(b))
-print(a.symmetric_difference(b))
-# output > {1, 2, 4, 5} bcoz 3 is common!
+# a = {1,2,3}
+# b = {3,4,5}
+# print(a.union(b))            # {1, 2, 3, 4, 5}
+# print(a.intersection(b))     # {3}
+# print(a.symmetric_difference(b))
+# # output > {1, 2, 4, 5} bcoz 3 is common!
 
+## issubset()  ##
+
+a = {1,2}
+b = {1,2,3,4}
+print(a.issubset(b))  # True
+print(b.issubset(a))  # False
