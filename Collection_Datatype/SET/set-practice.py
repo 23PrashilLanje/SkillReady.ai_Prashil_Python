@@ -112,6 +112,14 @@
 # # 5
 # # False
 
-numbers = {10, 20, 30}
-numbers.update([40,50,60])
-print(numbers)
+# numbers = {10, 20, 30}
+# numbers.update([40,50,60])
+# print(numbers)
+
+# numbers = {1, 2, 3}
+# numbers.update([3, 4, 5])
+# print(len(numbers))
+
+original = {10,20,30}
+new_set = original.copy()
+print(new_set)
