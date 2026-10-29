@@ -156,7 +156,16 @@
 
 ## isdisjoint()  ##
 
-a = {1,2,3}
-b = {4,5,6}
-print(a.isdisjoint(b))  # True , no element in common
+# a = {1,2,3}
+# b = {4,5,6}
+# print(a.isdisjoint(b))  # True , when no element are common
+# #Remember this simple rule:
+# #- No common elements → True
+# #- At least one common element → False
 
+
+## in and not in ##
+
+fruits = {"apple" ,"banana", "mango"}
+print("apple" in fruits)  # True
+print("orange" in fruits)  # False
