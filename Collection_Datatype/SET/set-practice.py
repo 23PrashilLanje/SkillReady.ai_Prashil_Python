@@ -166,11 +166,15 @@
 
 ## in and not in ##
 
-fruits = {"apple" ,"banana", "mango"}
-print("apple" in fruits)  # True
-print("orange" in fruits)  # False
-print("orange" not in fruits)  # True
+# fruits = {"apple" ,"banana", "mango"}
+# print("apple" in fruits)  # True
+# print("orange" in fruits)  # False
+# print("orange" not in fruits)  # True
 
-a = {10,20,30,40}
-b = {30,40,50,60}
+# a = {10,20,30,40}
+# b = {30,40,50,60}
+# print(a.difference(b))
+
+a = {1,2,3,4,5}
+b = {2,4}
 print(a.difference(b))
