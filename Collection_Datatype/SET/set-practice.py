@@ -179,8 +179,12 @@
 # b = {2,4}
 # print(a.difference(b))
 
-a = {1,2,3,4}
-b = {3,4,5,6}
-print(a.intersection(b))
-print(a.symmetric_difference(b))
+# a = {1,2,3,4}
+# b = {3,4,5,6}
+# print(a.intersection(b))
+# print(a.symmetric_difference(b))
 
+a = {2, 4, 6, 8}
+b = {1, 3, 5, 6}
+print(a.isdisjoint(b))
+print(a.intersection(b))
