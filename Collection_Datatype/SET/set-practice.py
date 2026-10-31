@@ -184,7 +184,14 @@
 # print(a.intersection(b))
 # print(a.symmetric_difference(b))
 
-a = {2, 4, 6, 8}
-b = {1, 3, 5, 6}
-print(a.isdisjoint(b))
-print(a.intersection(b))
+# a = {2, 4, 6, 8}
+# b = {1, 3, 5, 6}
+# print(a.isdisjoint(b))
+# print(a.intersection(b))
+
+
+a = {5, 10, 15, 20}
+b = {10, 20, 30, 40}
+print(len(a.union(b)))
+print(len(a.intersection(b)))
+print(15 in b)
