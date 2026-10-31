@@ -169,3 +169,8 @@
 fruits = {"apple" ,"banana", "mango"}
 print("apple" in fruits)  # True
 print("orange" in fruits)  # False
+print("orange" not in fruits)  # True
+
+a = {10,20,30,40}
+b = {30,40,50,60}
+print(a.difference(b))
