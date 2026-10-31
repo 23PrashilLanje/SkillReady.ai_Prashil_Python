@@ -175,6 +175,11 @@
 # b = {30,40,50,60}
 # print(a.difference(b))
 
-a = {1,2,3,4,5}
-b = {2,4}
+# a = {1,2,3,4,5}
+# b = {2,4}
+# print(a.difference(b))
+
+a = {1,2,3,4}
+b = {3,4,5,6}
+print(a.union(b))
 print(a.difference(b))
