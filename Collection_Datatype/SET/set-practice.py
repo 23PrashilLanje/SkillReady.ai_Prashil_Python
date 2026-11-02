@@ -190,8 +190,13 @@
 # print(a.intersection(b))
 
 
-a = {5, 10, 15, 20}
-b = {10, 20, 30, 40}
-print(len(a.union(b)))
-print(len(a.intersection(b)))
-print(15 in b)
+# a = {5, 10, 15, 20}
+# b = {10, 20, 30, 40}
+# print(len(a.union(b)))
+# print(len(a.intersection(b)))
+# print(15 in b)
+
+
+ 
+numbers = {10, 20, 30, 20, 40}
+print(numbers)
