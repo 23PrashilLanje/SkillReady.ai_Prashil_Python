@@ -200,4 +200,6 @@
  
 numbers = {10, 20, 30, 20, 40}
 numbers.add(50)
+numbers.remove(20)
 print(numbers)
+numbers.discard(40)
