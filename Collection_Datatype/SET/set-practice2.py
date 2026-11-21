@@ -3,5 +3,5 @@
 
 a = {10, 20}
 a.add(30)
-# a.update([40, 50])
+a.update([40,50])
 print(a)
