@@ -206,8 +206,13 @@
 # print(numbers)
 
 
-a = {10, 20, 30}
-x = a.pop()
+# a = {10, 20, 30}
+# x = a.pop()
+# print(x)
+# print(a)
 
-print(x)
-print(a)
+a = {10, 20, 30}
+a.add(20)
+a.add(40)
+
+print(len(a))
