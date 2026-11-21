@@ -1,0 +1,7 @@
+# numbers = {10, 20, 30, 20, 40}
+# print(numbers)
+
+a = {10, 20}
+a.add(30)
+# a.update([40, 50])
+print(a)
