@@ -198,9 +198,16 @@
 
 
  
-numbers = {10, 20, 30, 20, 40}
-numbers.add(50)
-numbers.remove(20)
-print(numbers)
-numbers.discard(40)
-print(numbers)
+# numbers = {10, 20, 30, 20, 40}
+# numbers.add(50)
+# numbers.remove(20)
+# print(numbers)
+# numbers.discard(40)
+# print(numbers)
+
+
+a = {10, 20, 30}
+x = a.pop()
+
+print(x)
+print(a)
