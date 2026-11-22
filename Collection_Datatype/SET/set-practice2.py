@@ -7,7 +7,11 @@
 # print(a)
 
 
-a = {10, 20, 30}
-a.add(20)
-a.add(40)
-print(len(a))
+# a = {10, 20, 30}
+# a.add(20)
+# a.add(40)
+# print(len(a))
+
+a = {10,20,30,40}
+a.remove(10)
+print(a)
