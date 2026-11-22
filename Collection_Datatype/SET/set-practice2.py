@@ -16,4 +16,5 @@ a = {10,20,30,40}
 a.remove(10)
 a.discard(50)
 a.pop()
+a.clear()
 print(a)
