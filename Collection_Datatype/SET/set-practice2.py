@@ -12,9 +12,12 @@
 # a.add(40)
 # print(len(a))
 
-a = {10,20,30,40}
-a.remove(10)
-a.discard(50)
-a.pop()
-a.clear()
-print(a)
+# a = {10,20,30,40}
+# a.remove(10)
+# a.discard(50)
+# a.pop()
+# a.clear()
+# print(a)
+
+a = {10,20,30}
+print(len(a))
