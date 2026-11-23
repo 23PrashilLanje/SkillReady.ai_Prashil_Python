@@ -40,5 +40,7 @@
 a = {10,20}
 b = {10,20,30,40}
 
-print(a.issubset(b))
-print(b.issubset(a))
+# print(a.issubset(b))  #True
+# print(b.issubset(a))  #False
+
+print(b.issuperset(a))
