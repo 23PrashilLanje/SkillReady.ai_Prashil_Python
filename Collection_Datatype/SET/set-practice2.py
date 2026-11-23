@@ -55,13 +55,20 @@
 # print(len(a))
 # # {1, 2, 3, 4, 5} and 5
 
-a = {10,20,30,40,50}
-b = {30,40,60,70}
+# a = {10,20,30,40,50}
+# b = {30,40,60,70}
 
-x = a.difference(b)
-y = b.difference(a)
-z = a.intersection(b)
-print(x)
-print(y)
-print(z)
-print(len(x) + len(y) + len(z))
+# x = a.difference(b)
+# y = b.difference(a)
+# z = a.intersection(b)
+# print(x)
+# print(y)
+# print(z)
+# print(len(x) + len(y) + len(z))
+
+
+a = {1,2,3,4}
+b = {3,4,5,6}
+
+a.update(b) # this print all non duplicate elemnt
+print(a)
