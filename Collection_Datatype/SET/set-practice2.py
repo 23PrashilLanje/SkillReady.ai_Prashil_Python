@@ -71,4 +71,5 @@ a = {1,2,3,4}
 b = {3,4,5,6}
 
 a.update(b) # this print all non duplicate elemnt
-print(a)
+a.discard(3)
+print(len(a))
