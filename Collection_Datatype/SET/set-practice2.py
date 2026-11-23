@@ -60,5 +60,7 @@ b = {30,40,60,70}
 
 x = a.difference(b)
 y = b.difference(a)
+z = a.intersection(b)
 print(x)
 print(y)
+print(z)
