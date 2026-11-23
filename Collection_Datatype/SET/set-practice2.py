@@ -24,6 +24,11 @@
 # print(20 in a)
 # print(50 not in a)
 
-a = {10,20,30}
-b = a.copy()
-print(b)
+# a = {10,20,30}
+# b = a.copy()
+# print(b)
+
+a = {1,2,3,4}
+b = {3,4,5,6}
+
+print(a.union(b))
