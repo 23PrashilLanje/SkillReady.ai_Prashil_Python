@@ -90,9 +90,15 @@
 # print(len(x) + len(y))
 
 
-a = {10,20,30}
-b = {10,20,30,40,50}
+# a = {10,20,30}
+# b = {10,20,30,40,50}
 
-print(a.issubset(b)) # True
-print(b.issuperset(a))  # True
-print(a.isdisjoint(b)) # False
+# print(a.issubset(b)) # True
+# print(b.issuperset(a))  # True
+# print(a.isdisjoint(b)) # False it check two set have zero common elements
+
+a = {10, 20, 30}
+b = {40, 50, 60}
+c = {30, 40, 50}
+print(a.isdisjoint(b))
+print(a.isdisjoint(c))
