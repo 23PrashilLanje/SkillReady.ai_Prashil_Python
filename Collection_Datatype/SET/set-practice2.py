@@ -86,5 +86,5 @@ x = a.symmetric_difference(b)
 y = x.intersection(a)
 
 print(x)
-# print(y)
-# print(len(x) + len(y))
+print(y)
+print(len(x) + len(y))
