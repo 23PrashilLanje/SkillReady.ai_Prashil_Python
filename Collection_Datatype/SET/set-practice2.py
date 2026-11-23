@@ -79,12 +79,18 @@
 # print(len(a))
 
 
-a = {2,4,6,8,10}
-b = {4,8,12,16}
+# a = {2,4,6,8,10}
+# b = {4,8,12,16}
 
-x = a.symmetric_difference(b)
-y = x.intersection(a)
+# x = a.symmetric_difference(b)
+# y = x.intersection(a)
 
-print(x)
-print(y)
-print(len(x) + len(y))
+# print(x)
+# print(y)
+# print(len(x) + len(y))
+
+
+a = {10,20,30}
+b = {10,20,30,40,50}
+
+print(a.issubset(b)) # True
