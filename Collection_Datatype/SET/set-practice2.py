@@ -37,11 +37,19 @@
 # print(a.symmetric_difference(b))
 
 
-a = {10,20}
-b = {10,20,30,40}
+# a = {10,20}
+# b = {10,20,30,40}
 
-# print(a.issubset(b))  #True
-# print(b.issubset(a))  #False
+# # print(a.issubset(b))  #True
+# # print(b.issubset(a))  #False
 
-print(b.issuperset(a))  #True
-print(a.isdisjoint(b))  #False
+# print(b.issuperset(a))  #True
+# print(a.isdisjoint(b))  #False DO A and B have NO common element
+
+
+a = {1, 2, 3}
+a.add(3)
+a.add(4)
+a.add(5)
+print(a)
+print(len(a))
