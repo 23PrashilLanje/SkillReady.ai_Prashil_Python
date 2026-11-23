@@ -72,4 +72,8 @@ b = {3,4,5,6}
 
 a.update(b) # this print all non duplicate elemnt
 a.discard(3)
+
+result = a.difference(b)
+print(a)
+print(result)
 print(len(a))
