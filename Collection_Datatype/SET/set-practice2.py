@@ -25,4 +25,5 @@
 # print(50 not in a)
 
 a = {10,20,30}
-print(len(a))
+b = a.copy()
+print(b)
