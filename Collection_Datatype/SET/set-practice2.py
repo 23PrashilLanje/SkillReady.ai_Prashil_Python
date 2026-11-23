@@ -67,13 +67,24 @@
 # print(len(x) + len(y) + len(z))
 
 
-a = {1,2,3,4}
-b = {3,4,5,6}
+# a = {1,2,3,4}
+# b = {3,4,5,6}
 
-a.update(b) # this print all non duplicate elemnt
-a.discard(3)
+# a.update(b) # Add all elements of b into a. this print all non duplicate elemnt
+# a.discard(3)
 
-result = a.difference(b)
-print(a)
-print(result)
-print(len(a))
+# result = a.difference(b)
+# print(a)
+# print(result)
+# print(len(a))
+
+
+a = {2,4,6,8,10}
+b = {4,8,12,16}
+
+x = a.symmetric_difference(b)
+y = x.intersection(a)
+
+print(x)
+# print(y)
+# print(len(x) + len(y))
