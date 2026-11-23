@@ -43,4 +43,5 @@ b = {10,20,30,40}
 # print(a.issubset(b))  #True
 # print(b.issubset(a))  #False
 
-print(b.issuperset(a))
+print(b.issuperset(a))  #True
+print(a.isdisjoint(b))  #False
