@@ -28,10 +28,17 @@
 # b = a.copy()
 # print(b)
 
-a = {1,2,3,4}
-b = {3,4,5,6}
+# a = {1,2,3,4}
+# b = {3,4,5,6}
 
-print(a.union(b))
-print(a.intersection(b))
-print(a.difference(b))  # {1,2}
-print(a.symmetric_difference(b))
+# print(a.union(b))
+# print(a.intersection(b))
+# print(a.difference(b))  # {1,2}
+# print(a.symmetric_difference(b))
+
+
+a = {10,20}
+b = {10,20,30,40}
+
+print(a.issubset(b))
+print(b.issubset(a))
