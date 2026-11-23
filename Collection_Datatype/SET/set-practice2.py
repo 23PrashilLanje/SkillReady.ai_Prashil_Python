@@ -47,9 +47,18 @@
 # print(a.isdisjoint(b))  #False DO A and B have NO common element
 
 
-a = {1, 2, 3}
-a.add(3)
-a.add(4)
-a.add(5)
-print(a)
-print(len(a))
+# a = {1, 2, 3}
+# a.add(3)
+# a.add(4)
+# a.add(5)
+# print(a)
+# print(len(a))
+# # {1, 2, 3, 4, 5} and 5
+
+a = {10,20,30,40,50}
+b = {30,40,60,70}
+
+x = a.difference(b)
+y = b.difference(a)
+print(x)
+print(y)
