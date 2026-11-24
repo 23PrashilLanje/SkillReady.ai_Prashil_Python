@@ -104,16 +104,28 @@
 # print(a.isdisjoint(c))
 
 
-a = {1,2,3,4,5,6}
-b = {4,5,6,7,8}
-c = {5,6,8,9}
+# a = {1,2,3,4,5,6}
+# b = {4,5,6,7,8}
+# c = {5,6,8,9}
 
-x = a.union(b)
-y = x.intersection(c)
-z = y.symmetric_difference(a)
+# x = a.union(b)
+# y = x.intersection(c)
+# z = y.symmetric_difference(a)
 
-print(x)
-print(y)
-print(z)
-print(len(z))
- 
+# print(x)
+# print(y)
+# print(z)
+# print(len(z))
+
+
+a = {10,20,30,40}
+b = a.copy()
+
+b.remove(20)
+b.add(50)
+
+a.difference_update(b)
+
+print(a)
+print(b)
+print(len(a.union(b)))
