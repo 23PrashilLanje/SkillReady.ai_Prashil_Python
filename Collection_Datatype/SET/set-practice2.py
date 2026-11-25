@@ -137,8 +137,15 @@
 # print(b)
 
 
+# a = {10, 20, 30, 40, 50}
+# b = {20, 40, 60}
+# a.difference_update(b)
+
+# print(a)
+
+
 a = {10, 20, 30, 40, 50}
-b = {20, 40, 60}
-a.difference_update(b)
+b = {30, 40, 50, 60}
+a.intersection_update(b)
 
 print(a)
