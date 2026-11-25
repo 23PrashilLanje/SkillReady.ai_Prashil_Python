@@ -150,9 +150,20 @@
 
 # print(a)
 
-a = {1, 2, 3, 4, 5}
-b = {4, 5, 6, 7}
-a.symmetric_difference_update(b)
+# a = {1, 2, 3, 4, 5}
+# b = {4, 5, 6, 7}
+# a.symmetric_difference_update(b)
+
+# print(a)
+# print(b)
+
+a = {10, 20, 30, 40, 50}
+b = {30, 40, 60, 70}
+c = {10, 30, 70, 80}
+
+a.intersection_update(b)
+a.symmetric_difference_update(c)
 
 print(a)
-print(b)
+print(len(a))
+print(a.isdisjoint(b))
