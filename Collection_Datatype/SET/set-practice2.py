@@ -161,8 +161,8 @@ a = {10, 20, 30, 40, 50}
 b = {30, 40, 60, 70}
 c = {10, 30, 70, 80}
 
-# a.intersection_update(b)
-a.symmetric_difference_update(c)
+a.intersection_update(b)
+# a.symmetric_difference_update(c)
 
 print(a)
 print(len(a))
