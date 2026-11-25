@@ -144,8 +144,15 @@
 # print(a)
 
 
-a = {10, 20, 30, 40, 50}
-b = {30, 40, 50, 60}
-a.intersection_update(b)
+# a = {10, 20, 30, 40, 50}
+# b = {30, 40, 50, 60}
+# a.intersection_update(b)
+
+# print(a)
+
+a = {1, 2, 3, 4, 5}
+b = {4, 5, 6, 7}
+a.symmetric_difference_update(b)
 
 print(a)
+print(b)
