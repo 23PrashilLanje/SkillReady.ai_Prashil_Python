@@ -118,14 +118,20 @@
 # print(len(z))
 
 
-a = {10,20,30,40}
+# a = {10,20,30,40}
+# b = a.copy()
+# b.remove(20)
+# b.add(50)
+# a.difference_update(b)
+
+# print(a)
+# print(b)
+# print(len(a.union(b)))
+
+
+a = {1, 2, 3, 4}
 b = a.copy()
-
-b.remove(20)
-b.add(50)
-
-a.difference_update(b)
+b.remove(2)
 
 print(a)
 print(b)
-print(len(a.union(b)))
