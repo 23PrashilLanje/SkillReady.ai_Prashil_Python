@@ -177,7 +177,7 @@ x = a.union(b)
 y = x.difference(c)
 z = y.intersection(a)
 
-print(x)
+# print(x)
 print(y)
 print(z)
 print(len(z))
