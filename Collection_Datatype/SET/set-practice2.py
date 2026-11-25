@@ -129,9 +129,16 @@
 # print(len(a.union(b)))
 
 
-a = {1, 2, 3, 4}
-b = a.copy()
-b.remove(2)
+# a = {1, 2, 3, 4}
+# b = a.copy()
+# b.remove(2)
+
+# print(a)
+# print(b)
+
+
+a = {10, 20, 30, 40, 50}
+b = {20, 40, 60}
+a.difference_update(b)
 
 print(a)
-print(b)
