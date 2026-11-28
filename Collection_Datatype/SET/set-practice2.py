@@ -169,16 +169,22 @@
 # print(a.isdisjoint(b))
 
 
-a = {1, 2, 3, 4, 5, 6}
-b = {4, 5, 6, 7, 8}
-c = {2, 4, 6, 8, 10}
+# a = {1, 2, 3, 4, 5, 6}
+# b = {4, 5, 6, 7, 8}
+# c = {2, 4, 6, 8, 10}
 
-x = a.union(b)
-y = x.difference(c)
-z = y.intersection(a)
+# x = a.union(b)
+# y = x.difference(c)
+# z = y.intersection(a)
 
-print(x)
-print(y)
-print(z)
-print(len(z))
-print(z.issubset(a))
+# print(x)
+# print(y)
+# print(z)
+# print(len(z))
+# print(z.issubset(a))
+
+
+a = {10, 20, 30, 40, 50}
+b = {30, 40, 50, 60, 70}
+c = a.intersection(b)
+print(c)
